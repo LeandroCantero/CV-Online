@@ -1,0 +1,171 @@
+:root {
+    --color-blue: #0b3f88;
+    --color-gray: #7c757d;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    color: var(--color-blue);
+}
+
+i {
+    font-size: 35px;
+    color: var(--color-blue);
+    margin: 0 10px;
+    transition: transform .2s;
+}
+
+i:hover {
+    transform: scale(1.5);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p,
+ul {
+    font-size: 20px;
+}
+
+span {
+    color: var(--color-gray);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px 50px;
+    box-shadow: 15px 5px 40px var(--color-gray);
+    width: 70%;
+}
+
+.container-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.workstation {
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.workstation h1 {
+    font-size: 50px;
+    margin: 20px 0 0;
+}
+
+.workstation h2 {
+    font-size: 30px;
+    margin: 10px 20px 50px;
+    color: var(--color-gray);
+}
+
+
+.contact {
+    align-self: flex-end;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 10px 0px;
+}
+
+.about-me h2 {
+    margin-bottom: 0;
+}
+
+.about-me p {
+    margin-left: 30px;
+}
+
+.date {
+    display: inline-block;
+    width: 150px;
+}
+
+.date p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical-line {
+    border-left: 1px solid var(--color-gray);
+    height: 90px;
+}
+
+.job,
+.education-placement {
+    display: inline-block;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.job h3,
+.education-placement h3 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.job p,
+.education-placement p {
+    margin-top: 10px;
+}
+
+.text-organization {
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.professional-skills {
+    margin-left: 200px;
+}
+
+.skills h2 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    columns: 2;
+}
+
+.professional-skills li {
+    margin-right: 40px;
+}
