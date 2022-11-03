@@ -91,6 +91,23 @@ span {
     margin-bottom: 20px;
 }
 
+.contact a {
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: transparent;
+}
+
+#portfolio-text {
+    color: var(--color-blue);
+    transition: transform .2s;
+}
+
+#portfolio-text:hover {
+    transform: scale(1.5);
+}
+
 .about-me {
     display: flex;
     flex-wrap: wrap;
